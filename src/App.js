@@ -37,6 +37,8 @@ class App extends Component {
     return (
         //JSX syntax (HTML inside JS)
         <div className="App">
+          <h1>Monster Rolodex Petar</h1>
+          <SearchBox placeholder='Search for monsters...' handleChange={this.handleChange}/>
           <CardList monsters={filterMonsters}/>
         </div>
     );
